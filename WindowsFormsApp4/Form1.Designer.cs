@@ -24,6 +24,13 @@
         /// </summary>
         private void InitializeComponent() {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ProductCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ProductName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ProductQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ProductCost = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ProductDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ProductType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DeleteDis = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.MotherboardRadioBtn = new System.Windows.Forms.RadioButton();
             this.ProcessorRadioBtn = new System.Windows.Forms.RadioButton();
@@ -32,13 +39,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.AddProductBtn = new System.Windows.Forms.Button();
-            this.ProductCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductCost = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ProductType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DeleteDis = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,6 +58,58 @@
             this.dataGridView1.Size = new System.Drawing.Size(776, 362);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // ProductCode
+            // 
+            this.ProductCode.Frozen = true;
+            this.ProductCode.HeaderText = "Código";
+            this.ProductCode.Name = "ProductCode";
+            this.ProductCode.ReadOnly = true;
+            this.ProductCode.ToolTipText = "E";
+            // 
+            // ProductName
+            // 
+            this.ProductName.Frozen = true;
+            this.ProductName.HeaderText = "Nombre";
+            this.ProductName.Name = "ProductName";
+            this.ProductName.ReadOnly = true;
+            // 
+            // ProductQuantity
+            // 
+            this.ProductQuantity.Frozen = true;
+            this.ProductQuantity.HeaderText = "Cantidad";
+            this.ProductQuantity.Name = "ProductQuantity";
+            this.ProductQuantity.ReadOnly = true;
+            // 
+            // ProductCost
+            // 
+            this.ProductCost.Frozen = true;
+            this.ProductCost.HeaderText = "Precio Unidad";
+            this.ProductCost.Name = "ProductCost";
+            this.ProductCost.ReadOnly = true;
+            // 
+            // ProductDescription
+            // 
+            this.ProductDescription.Frozen = true;
+            this.ProductDescription.HeaderText = "Descripción";
+            this.ProductDescription.Name = "ProductDescription";
+            this.ProductDescription.ReadOnly = true;
+            // 
+            // ProductType
+            // 
+            this.ProductType.Frozen = true;
+            this.ProductType.HeaderText = "Tipo";
+            this.ProductType.Name = "ProductType";
+            this.ProductType.ReadOnly = true;
+            // 
+            // DeleteDis
+            // 
+            this.DeleteDis.Frozen = true;
+            this.DeleteDis.HeaderText = "Paco";
+            this.DeleteDis.Name = "DeleteDis";
+            this.DeleteDis.ReadOnly = true;
+            this.DeleteDis.Text = "✎";
+            this.DeleteDis.UseColumnTextForButtonValue = true;
             // 
             // label1
             // 
@@ -140,58 +192,7 @@
             this.AddProductBtn.TabIndex = 8;
             this.AddProductBtn.Text = "Añadir";
             this.AddProductBtn.UseVisualStyleBackColor = true;
-            // 
-            // ProductCode
-            // 
-            this.ProductCode.Frozen = true;
-            this.ProductCode.HeaderText = "Código";
-            this.ProductCode.Name = "ProductCode";
-            this.ProductCode.ReadOnly = true;
-            this.ProductCode.ToolTipText = "E";
-            // 
-            // ProductName
-            // 
-            this.ProductName.Frozen = true;
-            this.ProductName.HeaderText = "Nombre";
-            this.ProductName.Name = "ProductName";
-            this.ProductName.ReadOnly = true;
-            // 
-            // ProductQuantity
-            // 
-            this.ProductQuantity.Frozen = true;
-            this.ProductQuantity.HeaderText = "Cantidad";
-            this.ProductQuantity.Name = "ProductQuantity";
-            this.ProductQuantity.ReadOnly = true;
-            // 
-            // ProductCost
-            // 
-            this.ProductCost.Frozen = true;
-            this.ProductCost.HeaderText = "Precio Unidad";
-            this.ProductCost.Name = "ProductCost";
-            this.ProductCost.ReadOnly = true;
-            // 
-            // ProductDescription
-            // 
-            this.ProductDescription.Frozen = true;
-            this.ProductDescription.HeaderText = "Descripción";
-            this.ProductDescription.Name = "ProductDescription";
-            this.ProductDescription.ReadOnly = true;
-            // 
-            // ProductType
-            // 
-            this.ProductType.Frozen = true;
-            this.ProductType.HeaderText = "Tipo";
-            this.ProductType.Name = "ProductType";
-            this.ProductType.ReadOnly = true;
-            // 
-            // DeleteDis
-            // 
-            this.DeleteDis.Frozen = true;
-            this.DeleteDis.HeaderText = "Paco";
-            this.DeleteDis.Name = "DeleteDis";
-            this.DeleteDis.ReadOnly = true;
-            this.DeleteDis.Text = "✎";
-            this.DeleteDis.UseColumnTextForButtonValue = true;
+            this.AddProductBtn.Click += new System.EventHandler(this.AddProductBtn_Click);
             // 
             // Form1
             // 

@@ -33,5 +33,10 @@ namespace WindowsFormsApp4 {
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e) {
                  
         }
+
+        private void AddProductBtn_Click(object sender, EventArgs e) {
+            AddContactForm formAdd = new AddContactForm();
+            formAdd.Show();
+        }
     }
 }

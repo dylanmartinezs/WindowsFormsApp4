@@ -46,7 +46,7 @@
             // 
             this.AddProductTitleLbl.AutoSize = true;
             this.AddProductTitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddProductTitleLbl.Location = new System.Drawing.Point(79, 43);
+            this.AddProductTitleLbl.Location = new System.Drawing.Point(79, 32);
             this.AddProductTitleLbl.Name = "AddProductTitleLbl";
             this.AddProductTitleLbl.Size = new System.Drawing.Size(222, 25);
             this.AddProductTitleLbl.TabIndex = 0;
@@ -55,7 +55,7 @@
             // AddProductCodeLbl
             // 
             this.AddProductCodeLbl.AutoSize = true;
-            this.AddProductCodeLbl.Location = new System.Drawing.Point(25, 97);
+            this.AddProductCodeLbl.Location = new System.Drawing.Point(25, 86);
             this.AddProductCodeLbl.Name = "AddProductCodeLbl";
             this.AddProductCodeLbl.Size = new System.Drawing.Size(43, 13);
             this.AddProductCodeLbl.TabIndex = 1;
@@ -63,14 +63,14 @@
             // 
             // AddProductCodeTxt
             // 
-            this.AddProductCodeTxt.Location = new System.Drawing.Point(97, 94);
+            this.AddProductCodeTxt.Location = new System.Drawing.Point(97, 83);
             this.AddProductCodeTxt.Name = "AddProductCodeTxt";
             this.AddProductCodeTxt.Size = new System.Drawing.Size(233, 20);
             this.AddProductCodeTxt.TabIndex = 2;
             // 
             // AddProductNameTxt
             // 
-            this.AddProductNameTxt.Location = new System.Drawing.Point(97, 143);
+            this.AddProductNameTxt.Location = new System.Drawing.Point(97, 132);
             this.AddProductNameTxt.Name = "AddProductNameTxt";
             this.AddProductNameTxt.Size = new System.Drawing.Size(233, 20);
             this.AddProductNameTxt.TabIndex = 4;
@@ -78,7 +78,7 @@
             // AddProductNameLbl
             // 
             this.AddProductNameLbl.AutoSize = true;
-            this.AddProductNameLbl.Location = new System.Drawing.Point(25, 146);
+            this.AddProductNameLbl.Location = new System.Drawing.Point(25, 135);
             this.AddProductNameLbl.Name = "AddProductNameLbl";
             this.AddProductNameLbl.Size = new System.Drawing.Size(47, 13);
             this.AddProductNameLbl.TabIndex = 3;
@@ -87,7 +87,7 @@
             // AddProductQuantityLbl
             // 
             this.AddProductQuantityLbl.AutoSize = true;
-            this.AddProductQuantityLbl.Location = new System.Drawing.Point(25, 196);
+            this.AddProductQuantityLbl.Location = new System.Drawing.Point(25, 185);
             this.AddProductQuantityLbl.Name = "AddProductQuantityLbl";
             this.AddProductQuantityLbl.Size = new System.Drawing.Size(52, 13);
             this.AddProductQuantityLbl.TabIndex = 5;
@@ -95,14 +95,14 @@
             // 
             // AddProductQuantityNum
             // 
-            this.AddProductQuantityNum.Location = new System.Drawing.Point(97, 194);
+            this.AddProductQuantityNum.Location = new System.Drawing.Point(97, 183);
             this.AddProductQuantityNum.Name = "AddProductQuantityNum";
             this.AddProductQuantityNum.Size = new System.Drawing.Size(233, 20);
             this.AddProductQuantityNum.TabIndex = 6;
             // 
             // AddProductCostNum
             // 
-            this.AddProductCostNum.Location = new System.Drawing.Point(97, 246);
+            this.AddProductCostNum.Location = new System.Drawing.Point(97, 235);
             this.AddProductCostNum.Name = "AddProductCostNum";
             this.AddProductCostNum.Size = new System.Drawing.Size(233, 20);
             this.AddProductCostNum.TabIndex = 8;
@@ -110,7 +110,7 @@
             // AddProductCostLbl
             // 
             this.AddProductCostLbl.AutoSize = true;
-            this.AddProductCostLbl.Location = new System.Drawing.Point(25, 248);
+            this.AddProductCostLbl.Location = new System.Drawing.Point(25, 237);
             this.AddProductCostLbl.Name = "AddProductCostLbl";
             this.AddProductCostLbl.Size = new System.Drawing.Size(40, 13);
             this.AddProductCostLbl.TabIndex = 7;
@@ -118,7 +118,7 @@
             // 
             // AddProductDescTxt
             // 
-            this.AddProductDescTxt.Location = new System.Drawing.Point(97, 296);
+            this.AddProductDescTxt.Location = new System.Drawing.Point(97, 285);
             this.AddProductDescTxt.Name = "AddProductDescTxt";
             this.AddProductDescTxt.Size = new System.Drawing.Size(233, 20);
             this.AddProductDescTxt.TabIndex = 10;
@@ -126,7 +126,7 @@
             // AddProductDescLbl
             // 
             this.AddProductDescLbl.AutoSize = true;
-            this.AddProductDescLbl.Location = new System.Drawing.Point(25, 299);
+            this.AddProductDescLbl.Location = new System.Drawing.Point(25, 288);
             this.AddProductDescLbl.Name = "AddProductDescLbl";
             this.AddProductDescLbl.Size = new System.Drawing.Size(66, 13);
             this.AddProductDescLbl.TabIndex = 9;
@@ -134,7 +134,7 @@
             // 
             // AddProductTypeTxt
             // 
-            this.AddProductTypeTxt.Location = new System.Drawing.Point(97, 348);
+            this.AddProductTypeTxt.Location = new System.Drawing.Point(97, 337);
             this.AddProductTypeTxt.Name = "AddProductTypeTxt";
             this.AddProductTypeTxt.Size = new System.Drawing.Size(233, 20);
             this.AddProductTypeTxt.TabIndex = 12;
@@ -142,7 +142,7 @@
             // AddProductTypeLbl
             // 
             this.AddProductTypeLbl.AutoSize = true;
-            this.AddProductTypeLbl.Location = new System.Drawing.Point(25, 351);
+            this.AddProductTypeLbl.Location = new System.Drawing.Point(25, 340);
             this.AddProductTypeLbl.Name = "AddProductTypeLbl";
             this.AddProductTypeLbl.Size = new System.Drawing.Size(31, 13);
             this.AddProductTypeLbl.TabIndex = 11;
@@ -150,7 +150,7 @@
             // 
             // AddProductOkBtn
             // 
-            this.AddProductOkBtn.Location = new System.Drawing.Point(246, 401);
+            this.AddProductOkBtn.Location = new System.Drawing.Point(246, 390);
             this.AddProductOkBtn.Name = "AddProductOkBtn";
             this.AddProductOkBtn.Size = new System.Drawing.Size(102, 37);
             this.AddProductOkBtn.TabIndex = 13;
@@ -159,7 +159,7 @@
             // 
             // AddProductCancelBtn
             // 
-            this.AddProductCancelBtn.Location = new System.Drawing.Point(29, 401);
+            this.AddProductCancelBtn.Location = new System.Drawing.Point(29, 390);
             this.AddProductCancelBtn.Name = "AddProductCancelBtn";
             this.AddProductCancelBtn.Size = new System.Drawing.Size(102, 37);
             this.AddProductCancelBtn.TabIndex = 14;
@@ -186,6 +186,7 @@
             this.Controls.Add(this.AddProductCodeTxt);
             this.Controls.Add(this.AddProductCodeLbl);
             this.Controls.Add(this.AddProductTitleLbl);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AddContactForm";
             this.Text = "Agregar Productoç";
             this.Load += new System.EventHandler(this.AddContactForm_Load);
